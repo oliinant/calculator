@@ -12,12 +12,3 @@ export async function resultHandler(result, setCalculation, setResult) {
         setResult(result.solution)
     }
 }
-
-{/*
-    {result.error ? (setCalculation(result.message), setResult("")) : result.wasShortend 
-    ?   (
-            <>
-                {result.solution}*10<span className="relative -top-[8px]">{result.squaringNum}</span>
-            </>
-        )
-    : result.solution}*/}

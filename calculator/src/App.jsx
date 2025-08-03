@@ -6,11 +6,10 @@ import { buttonHashmapCreator } from './buttonHashmapCreator'
 import { columnCreator } from './columnCreator'
 import { Button } from './Button'
 import { specialButtonsCreator } from './specialButtonCreator'
-import { resultHandler }  from "./calculationResult"
 
 function App() {
   const [calculation, setCalculation] = useState("")
-  const [result, setResult] = useState({})
+  const [result, setResult] = useState("")
   console.log(result)
 
   const numberButtonList = numberButtonsCreator(setCalculation)
